@@ -1,0 +1,29 @@
+body {
+    width: 300px;
+}
+
+a {
+    display: inline-block;
+}
+
+.new-list-container {
+    margin: 10px 0;
+    display: none;
+}
+
+.new-list-container.open {
+    display: block;
+}
+
+.current-lists {
+    width: 100%;
+    display: none;
+}
+
+.create-list {
+    display: none;
+}
+
+.list-urls a {
+    margin: 5px 0;
+}

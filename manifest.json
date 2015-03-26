@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "URL Saver",
+  "description": "Save URLs to given lists by site",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
